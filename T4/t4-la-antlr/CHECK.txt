@@ -1,0 +1,7 @@
+src/main/java/br/ufscar/dc/compiladores/t4/Principal.java: braces 22/22
+src/main/java/br/ufscar/dc/compiladores/t4/TipoLA.java: braces 30/30
+src/main/java/br/ufscar/dc/compiladores/t4/ResultadoTipo.java: braces 6/6
+src/main/java/br/ufscar/dc/compiladores/t4/Simbolo.java: braces 5/5
+src/main/java/br/ufscar/dc/compiladores/t4/Escopo.java: braces 8/8
+src/main/java/br/ufscar/dc/compiladores/t4/ParametroInfo.java: braces 2/2
+src/main/java/br/ufscar/dc/compiladores/t4/SemanticoVisitor.java: braces 164/164
