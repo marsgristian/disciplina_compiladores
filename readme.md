@@ -11,7 +11,6 @@ Este repositório contém as implementações dos trabalhos **T1 ao T4**, cada u
 - Cristian Martins
 - RA: 799714
 
-Atualize esta seção caso o trabalho tenha sido desenvolvido em grupo.
 
 ---
 

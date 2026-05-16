@@ -13,7 +13,6 @@ O analisador lê um programa-fonte em LA e produz uma lista de tokens reconhecid
 - Nome: Cristian Martins
 - RA: 799714
 
-Atualize esta seção caso o trabalho tenha sido desenvolvido em grupo.
 
 ---
 

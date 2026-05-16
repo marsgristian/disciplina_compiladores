@@ -9,7 +9,6 @@ Este projeto implementa a segunda parte do analisador semântico da linguagem LA
 - Cristian Martins
 - RA: 799714
 
-Atualize esta seção se houver mais integrantes no grupo.
 
 ## Requisitos
 

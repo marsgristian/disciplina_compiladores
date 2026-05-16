@@ -9,7 +9,6 @@ Este projeto implementa parte do analisador semântico da linguagem LA usando Ja
 - Cristian Martins
 - RA: 799714
 
-Atualize esta seção se houver mais integrantes no grupo.
 
 ## Requisitos
 

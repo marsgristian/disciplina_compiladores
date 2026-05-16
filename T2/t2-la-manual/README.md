@@ -15,7 +15,6 @@ Este projeto implementa:
 - Cristian Martins
 - RA: 799714
 
-Atualize esta seção se houver mais membros no grupo.
 
 ## Requisitos
 

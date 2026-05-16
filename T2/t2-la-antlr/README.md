@@ -9,7 +9,6 @@ Este projeto implementa um analisador sintático para a linguagem LA usando Java
 - Nome: Cristian Martins
 - RA: 799714
 
-Atualize esta seção se o trabalho for feito em grupo.
 
 ## Requisitos
 
