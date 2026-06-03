@@ -2,7 +2,7 @@
 
 Repositório com os trabalhos da disciplina **Construção de Compiladores**, ministrada pelo professor **Daniel Lucrédio**, no contexto da linguagem **LA - Linguagem Algorítmica**, desenvolvida pelo professor Jander no DC/UFSCar.
 
-Este repositório contém as implementações dos trabalhos **T1 ao T4**, cada um em sua própria pasta e com documentação específica.
+Este repositório contém as implementações dos trabalhos **T1 ao T5**, cada um em sua própria pasta e com documentação específica.
 
 ---
 
@@ -38,6 +38,11 @@ Este repositório contém as implementações dos trabalhos **T1 ao T4**, cada u
 │   ├── pom.xml
 │   └── src/
 │
+├── T5/
+│   ├── README.md
+│   ├── pom.xml
+│   └── src/
+|
 └── corretor_t1_helper.ipynb
 ````
 
@@ -144,6 +149,23 @@ T4/target/*.jar
 
 ---
 
+---
+
+### T5 - gerador de código para a linguagem LA
+
+```bash
+cd T5
+mvn clean package
+```
+
+JAR gerado:
+
+```txt
+T5/target/*.jar
+```
+
+---
+
 ## Execução manual
 
 Todos os trabalhos seguem o mesmo padrão de execução exigido pela disciplina:
@@ -225,10 +247,12 @@ Use a opção correspondente ao trabalho que deseja corrigir:
 
 | Trabalho | Opção do corretor | Descrição                      |
 | -------- | ----------------- | ------------------------------ |
-| T1       | `lexico`          | Analisador léxico              |
-| T2       | `sintatico`       | Analisador sintático           |
-| T3       | `semantico`       | Analisador semântico - parte 1 |
-| T4       | `semantico`       | Analisador semântico - parte 2 |
+| T1       | `t1`              | Analisador léxico              |
+| T2       | `t2`              | Analisador sintático           |
+| T3       | `t3`              | Analisador semântico - parte 1 |
+| T4       | `t4`              | Analisador semântico - parte 2 |
+| T5       | `t5`              | gerador de código linguagem LA |
+
 
 Exemplos:
 
@@ -236,28 +260,35 @@ Exemplos:
 
 ```txt
 ARG2 = "java -jar C:\caminho\do\repositorio\T1\target\t1-lexico.jar"
-ARG7 = lexico
+ARG7 = t1
 ```
 
 ### Corrigir T2
 
 ```txt
 ARG2 = "java -jar C:\caminho\do\repositorio\T2\target\t2-sintatico.jar"
-ARG7 = sintatico
+ARG7 = t2
 ```
 
 ### Corrigir T3
 
 ```txt
 ARG2 = "java -jar C:\caminho\do\repositorio\T3\target\t3-semantico.jar"
-ARG7 = semantico
+ARG7 = t3
 ```
 
 ### Corrigir T4
 
 ```txt
 ARG2 = "java -jar C:\caminho\do\repositorio\T4\target\t4-semantico.jar"
-ARG7 = semantico
+ARG7 = t4
+```
+
+### Corrigir T5
+
+```txt
+ARG2 = "java -jar C:\caminho\do\repositorio\T5\target\t5-semantico.jar"
+ARG7 = t5
 ```
 
 ---
@@ -316,6 +347,13 @@ Exemplo para o T4:
 ```python
 COMPILADOR_CMD = r"java -jar C:\caminho\do\repositorio\T4\target\t4-semantico.jar"
 OPCAO = "t4"
+```
+
+Exemplo para o T5:
+
+```python
+COMPILADOR_CMD = r"java -jar C:\caminho\do\repositorio\T5\target\t5-semantico.jar"
+OPCAO = "t5"
 ```
 
 O notebook auxilia na montagem do comando, validação de caminhos e visualização das saídas produzidas pelo corretor.
@@ -446,19 +484,6 @@ Para recompilar:
 ```bash
 mvn clean package
 ```
-
----
-
-## Status dos trabalhos
-
-| Trabalho | Implementação                  | Corretor    |
-| -------- | ------------------------------ | ----------- |
-| T1       | Analisador léxico              | `lexico`    |
-| T2       | Analisador sintático           | `sintatico` |
-| T3       | Analisador semântico - parte 1 | `semantico` |
-| T4       | Analisador semântico - parte 2 | `semantico` |
-
----
 
 ## Referências
 
